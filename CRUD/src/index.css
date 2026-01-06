@@ -1,0 +1,120 @@
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.todo_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw 1vw;
+}
+
+.task_Container {
+  
+ text-align: center;
+  color: rgb(63, 18, 210);
+  border: 1px solid #b8c964;
+  box-shadow: 0px 3px 8px rgba(42, 24, 161, 0.7);
+  border-radius: 8px;
+   padding: 2vw 2vw;
+    margin: auto;
+   width: auto;
+}
+
+h2{
+  font-size: 1.8vw;
+}
+
+.task_Container  span{
+  display: flex;
+}
+
+.list_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1vw;
+  gap: 1vw;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;              
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #570bdb;
+}
+
+
+
+
+/* TaskForm.css */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  /* background-color:  */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid rgb(66, 14, 210);;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: rgb(27, 24, 227);;
+  box-shadow: 0 0 5px rgb(6, 13, 209);;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color:#4413e7;
+  color: #ffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s;
+}
+
+button[type="submit"]:hover {
+  background-color: #adc537;
+  transform: translateY(-2px);
+}
+
+
+
+.edit_continer,.newTask_continer h2{
+ text-align: center;
+ color: #a9c964;
+}
+
